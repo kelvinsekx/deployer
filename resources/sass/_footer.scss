@@ -1,5 +1,10 @@
 footer{
   margin-top: 3rem;
+  background-color: #001628;
+  .flex-wrap .link_header {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
 }
 .grid_up > a:hover {
   text-decoration: none;
@@ -21,19 +26,12 @@ footer{
   font-weight: 1000;
 }
 
-footer {
-  background-color: #001628;
-}
+
 footer aside {
   padding: 1.2rem;
   background-color: #ccc;
   margin: 0 auto;
   font-weight: 700;
-}
-
-footer .flex-wrap .link_header {
-  font-size: 1.5rem;
-  font-weight: 900;
 }
 
 footer section.flex-wrap {
