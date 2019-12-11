@@ -14541,6 +14541,10 @@ span.icon {
   display: none;
 }
 
+.b_grey {
+  color: #918787 !important;
+}
+
 #imp {
   color: #121314;
   position: relative;

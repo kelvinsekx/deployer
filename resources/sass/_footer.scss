@@ -1,10 +1,10 @@
 footer{
   margin-top: 3rem;
   background-color: #001628;
-  .flex-wrap .link_header {
-    font-size: 1.5rem;
-    font-weight: 900;
-  }
+    .flex-wrap .link_header {
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
 }
 .grid_up > a:hover {
   text-decoration: none;
@@ -341,4 +341,7 @@ span#weblogol {
 
 span.icon {
   display: none;
+}
+.b_grey{
+  color:#918787 !important;
 }

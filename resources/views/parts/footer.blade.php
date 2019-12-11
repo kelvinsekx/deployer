@@ -11,7 +11,7 @@
       </span>
     </div>
     <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
-        <a class="link_header mb-3 text-mono">Engineering</a>
+        <a class="link_header mb-3 text-mono b_grey">Engineering</a>
       <ul class="list-style-none f5">
         <li class="lh-condensed mb-3">
           <a href="https://developer.github.com/" class="white">
@@ -36,7 +36,7 @@
       </ul>
     </div>
     <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
-    <a class="link_header mb-3 text-mono">Company</a>
+    <a class="link_header mb-3 text-mono b_grey">Company</a>
     <ul class="list-style-none f5">
       <li class="lh-condensed mb-3">
         <a href="/about" class="white">About</a>
@@ -50,7 +50,7 @@
     </ul>
     </div>
     <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
-    <a class=" link_header mb-3 text-mono">
+    <a class=" link_header mb-3 text-mono b_grey">
         Product
     </a>
     <ul class="list-style-none white f5">
