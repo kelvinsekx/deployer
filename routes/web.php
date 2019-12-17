@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/affiliate-marketing','PagesController@aff');
+Route::get('/about','PagesController@abt');

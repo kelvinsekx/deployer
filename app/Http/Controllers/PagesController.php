@@ -9,4 +9,7 @@ class PagesController extends Controller
     public function aff(){
       return view('pages.affi');
     }
+    public function abt(){
+      return view('pages.about');
+    }
 }

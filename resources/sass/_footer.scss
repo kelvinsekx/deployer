@@ -1,3 +1,6 @@
+section{
+  display:block;
+}
 footer{
   margin-top: 3rem;
   background-color: #001628;
@@ -41,23 +44,6 @@ footer section.flex-wrap {
 
 footer .flex-wrap div {
   flex-basis: 35rem;
-}
-
-@media all and (max-width: 500px) {
-  footer section.flex-wrap {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer .flex-wrap div {
-    flex-basis: 5rem;
-  }
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: inherit;
 }
 
 h2 + p {
@@ -307,6 +293,7 @@ span#brand {
   font-size: 2.4rem;
 }
 
+//colors
 span#weblogo2 {
   color: #cee026;
 }
@@ -334,6 +321,18 @@ span#weblogol {
 .white {
   color: #fff;
 }
+.forestvegi{
+  color: rgb(25, 233, 18);
+}
+.blue{
+  color: #4285f4
+}
+.semi-white{
+  color: rgb(240, 234, 234);
+}
+.universe-green{
+  color: #34a853;
+}
 
 .text-black {
   color: #000;
@@ -344,4 +343,7 @@ span.icon {
 }
 .b_grey{
   color:#918787 !important;
+}
+.bold{
+  font-weight: bolder;
 }

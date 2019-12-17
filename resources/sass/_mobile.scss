@@ -1,0 +1,23 @@
+@media all and (max-width: 600px) {
+  footer section.flex-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .flex-wrap div {
+    flex-basis: 5rem;
+  }
+
+  #imp{
+      width: 80vw ;
+  }
+  .anchor_statement{
+    max-height: 31vh;
+    min-height: 30vh;
+    p{
+      line-height: 1.6em;
+      font-size: 1.2rem;
+    }
+  }
+  
+}
