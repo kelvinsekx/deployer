@@ -1,6 +1,6 @@
 <footer >
     <aside>
-      GilAFF is created, written by, and maintained by Kelvin Oritsetimeyin U
+      GilAFF is created, written by, and maintained by Kelvin Oritsetimeyin
       and a team of swell people, together with all the <span class="red">LOVE</span> in the world.
     </aside>
 

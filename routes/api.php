@@ -16,3 +16,6 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::get('/affiliate-marketing','AffiliateController@Index');
+Route::get('/affiliate-marketing/{slug}','AffiliateController@Show');
+Route::post('/affiliate-marketing/create','AffiliateController@Store');

@@ -11,8 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/affiliate-marketing','PagesController@aff');
-Route::get('/about','PagesController@abt');
+
+
+
+Route::get('/', 'PagesController@aff');
+Route::get('/about', 'PagesController@abt');
+
+
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::view('/affiliate-marketing/{path?}','app');
+// Route::get('/affiliate-marketing','PagesController@edit');

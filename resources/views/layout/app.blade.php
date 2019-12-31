@@ -19,62 +19,25 @@
      <link rel='stylesheet' id='all-css-0' href='https://github.blog/_static/??-eJydzEsOwjAMBNALkRoEtGwQZ2kSKzXNT7FT1NuTQnfs2I008wZeWVE0vlpkMMxgiQW0T2ZWnnQZywosq8cuUOza4ABNmBQFo4BMGJpzJFPVqin39dvRf2rBaFPZux8Zqsq+OooMT5Q8mvmD9rzNH+F+uvZDf74Nx8sbCHpRdw==' type='text/css' media='all' />
      <script type='text/javascript' src='https://github.blog/wp-content/themes/github-blog/dist/js/vendor/gascrolldepth.min.js?m=1567112606g'></script>
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-     <!-- summernote -->
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.js"></script>
         <script>
           (adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-8084820621762201",
             enable_page_level_ads: true
           });
         </script>
-<style>
-      body{color: #212121;
-        font: 400 16px/24px Roboto,sans-serif;
-        font-style: normal;
-        font-variant-caps: normal;
-        font-weight: 400;
-        font-stretch: normal;
-        font-size: 16px;
-        line-height: 24px;
-        font-family: Roboto, sans-serif;
-        font-size-adjust: none;
-        font-kerning: auto;
-        font-variant-alternates: normal;
-        font-variant-east-asian: normal;
-        font-variant-ligatures: normal;
-        font-variant-numeric: normal;
-        font-variant-position: normal;
-        font-language-override: normal;
-        font-feature-settings: normal;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
-        margin: 0;
-        -webkit-text-size-adjust: 100%;
-        -moz-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-        text-size-adjust: 100%;
-}
-        </style>
 
     </head>
     <body class="">
 
         @include('parts.nav')
 
-          <main class="mod_page" role="main">
-                @yield('content')
+          <main class="mod_page" role="main" >
+           @yield('content')
           </main>
 
         @include('parts.footer')
-        <!-- summernote -->
-        <script>
-          $(document).ready(function() {
-              $('#summernote').summernote({
-              height:300,
-              });
-          });
-        </script>
+      
+        
         <!-- bootstrap -->
         <script src="{{ asset('js/app.js') }}" defer></script>
         <!-- GITHUB SCRIPTS -->
@@ -83,8 +46,7 @@
         <script>
             tinymce.init({
                 selector:'textarea.description',
-                width: 900,
-                height: 300
+                height: 400
             });
         </script>
         <script type='text/javascript' src='https://github.blog/wp-content/mu-plugins/jetpack/_inc/build/photon/photon.min.js?m=1567716026g'></script>

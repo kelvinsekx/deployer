@@ -12,4 +12,7 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/posts/App');
+require('./components/About/About');
+require('./components/Welcome/Welcome');
+require('./components/Wia/Example')
+require('./Index');

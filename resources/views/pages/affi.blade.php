@@ -1,5 +1,5 @@
-@extends('../master/master')
-@section('title', 'what is affiliate market...')
+@extends('layout.app')
+@section('title', 'welcome to gilaff...')
 @section('content')
-    <div id="example">  </div>
+    <div id="welcome-page">  </div>
 @endsection

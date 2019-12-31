@@ -1,10 +1,13 @@
-//
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-// Variables
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-@import 'trunc';
-@import 'styles';
-@import 'footer';
+// Variables
 @import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'footer';
+@import 'styles';
 @import 'mobile';
+
+
