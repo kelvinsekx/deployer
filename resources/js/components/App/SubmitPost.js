@@ -74,7 +74,7 @@ render() {
                                 <div className="form-group">
                                 <label>Content</label>
                                     <textarea 
-                                    className="form-control"
+                                    className="form-control summernote"
                                     name="content"
                                     value={this.state.content}
                                     onChange={this.handleChange}

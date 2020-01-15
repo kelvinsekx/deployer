@@ -6452,6 +6452,25 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/components/About/about.scss":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/js/components/About/about.scss ***!
+  \*************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".about-page section:nth-child(2) div > p {\n  font-weight: 900;\n  padding: 1em;\n  margin: 0 auto;\n  width: 80vw;\n}\n.about-page section:nth-child(3) div > p {\n  border: 2px solid #f1e6e6;\n  width: 18rem;\n  margin: 0 auto;\n  padding: 2rem 2rem;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/components/App/SinglePage/singlepage.scss":
 /*!***************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/js/components/App/SinglePage/singlepage.scss ***!
@@ -67414,7 +67433,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -73665,6 +73684,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _about_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.scss */ "./resources/js/components/About/about.scss");
+/* harmony import */ var _about_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_about_scss__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
@@ -73681,7 +73703,7 @@ function AboutPage() {
     className: "forestvegi"
   }, "environment"), ", and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "blue"
-  }, "sync"), "knowledge and efforts with ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "sync"), " knowledge and efforts with ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "red"
   }, "Love"), " that aims at improving and redefining digital marketing and her marketers, with the ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "text-black bolder"
@@ -73692,7 +73714,7 @@ function AboutPage() {
   }, "universe"), " at its dept.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "row mt-2 d-flex justify-content-center text-muted"
+    className: "row mt-2 text-muted"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Gilaff is supporting an open community where people will learn,share, and work together to build an ideal digital marketing space."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -73707,6 +73729,36 @@ function AboutPage() {
 if (document.getElementById('about-page')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutPage, null), document.getElementById('about-page'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/About/about.scss":
+/*!**************************************************!*\
+  !*** ./resources/js/components/About/about.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!./about.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/components/About/about.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
@@ -73870,11 +73922,13 @@ function (_Component) {
   }
 
   _createClass(LandingPage, [{
-    key: "getTasks",
-    value: function getTasks() {
+    key: "componentDidMount",
+    value: function componentDidMount() {
       var _this2 = this;
 
-      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('/api/affiliate-marketing').then(function (res) {
+      // this.getTasks();
+      var slug = this.props.match.params.slug;
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/api/affiliate-marketing/".concat(slug)).then(function (res) {
         _this2.setState({
           posts: res.data.posts
         });
@@ -73883,36 +73937,30 @@ function (_Component) {
       });
     }
   }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.getTasks();
-    }
-  }, {
     key: "render",
     value: function render() {
+      var posts = this.state.posts;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: ""
-      }, this.state.posts.map(function (post) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          key: post.id
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "title-container"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "titlebar"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-          className: "title"
-        }, post.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "container-fluid"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "row"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "col-lg-1"
-        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-          className: "col-lg-9 col-12 col-xs-12"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Summary"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, post.summary))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, post.content)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Conclusion"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " ", post.conclusion)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "col-lg-2"
-        }))));
-      }));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: posts.id
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "title-container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "titlebar"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "title"
+      }, posts.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container-fluid"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-1"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "col-lg-9 col-12 col-xs-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Summary"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, posts.summary))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, posts.content)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Conclusion"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " ", posts.conclusion)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-2"
+      })))));
     }
   }]);
 
@@ -74077,7 +74125,7 @@ function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Content"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
-        className: "form-control",
+        className: "form-control summernote",
         name: "content",
         value: this.state.content,
         onChange: this.handleChange

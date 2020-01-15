@@ -11366,7 +11366,7 @@ footer {
 }
 
 footer .flex-wrap .link_header {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 900;
 }
 
@@ -11629,18 +11629,8 @@ ul {
   line-height: 3.75rem;
 }
 
-.about-page section:nth-child(2) div > p {
-  font-weight: 900;
-  padding: 1em;
-  -webkit-box-pack: first baseline;
-          justify-content: first baseline;
-}
-
-.about-page section:nth-child(3) div > p {
-  border: 2px solid #f1e6e6;
-  width: 20rem;
-  margin: 0 auto;
-  padding: 2rem 4rem;
+.center {
+  margin: auto;
 }
 
 .weAq {
@@ -11660,8 +11650,8 @@ ul {
     flex-basis: 5rem;
   }
 
-  footer .link_header {
-    font-size: 1rem;
+  footer .flex-wrap div .link_header {
+    font-size: 1.1rem;
   }
 
   #imp {

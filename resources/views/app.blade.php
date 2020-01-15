@@ -18,13 +18,8 @@
      <!-- Github -->
      <link rel='stylesheet' id='all-css-0' href='https://github.blog/_static/??-eJydzEsOwjAMBNALkRoEtGwQZ2kSKzXNT7FT1NuTQnfs2I008wZeWVE0vlpkMMxgiQW0T2ZWnnQZywosq8cuUOza4ABNmBQFo4BMGJpzJFPVqin39dvRf2rBaFPZux8Zqsq+OooMT5Q8mvmD9rzNH+F+uvZDf74Nx8sbCHpRdw==' type='text/css' media='all' />
      <script type='text/javascript' src='https://github.blog/wp-content/themes/github-blog/dist/js/vendor/gascrolldepth.min.js?m=1567112606g'></script>
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-8084820621762201",
-            enable_page_level_ads: true
-          });
-        </script>
+
+
 
     </head>
     <body class="">

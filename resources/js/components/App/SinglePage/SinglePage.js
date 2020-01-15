@@ -10,26 +10,29 @@ export default class LandingPage extends Component {
         };
         
     }
-    getTasks(){
-        axios.get('/api/affiliate-marketing').then(res=>{
-            this.setState({
-              posts: res.data.posts
-            })
-            console.log(res)
-          } )
-    }
+    
     componentDidMount(){
-        this.getTasks();
+        // this.getTasks();
+        
+            const slug = this.props.match.params.slug
+            axios.get(`/api/affiliate-marketing/${slug}`).then(res=>{
+                this.setState({
+                  posts: res.data.posts
+                })
+                console.log(res)
+              } )
+        
     }
 render() {
+    const{ posts }= this.state
     return (
+        
         <div className="">
             
-        {this.state.posts.map(post => (
-        <div key={post.id}>
+        <div key={posts.id}>
             <div className="title-container">
               <div className="titlebar">
-               <h1 className="title">{post.title}</h1>
+               <h1 className="title">{posts.title}</h1>
               </div>
             </div>
 
@@ -40,19 +43,19 @@ render() {
                 <div>
                     <div>
                     <label>Summary</label>
-                     <p>{post.summary}</p> 
+                     <p>{posts.summary}</p> 
                     </div> 
                 </div>
 
                 <div>
                     <div>
-                        {post.content} 
+                        {posts.content} 
                     </div> 
                 </div>
                 <div>
                     <div>
                       <label>Conclusion</label>
-                      <p> {post.conclusion}</p>     
+                      <p> {posts.conclusion}</p>     
                     </div>
                 </div>
                 </article>
@@ -60,7 +63,7 @@ render() {
               </div>
             </div>
         </div>
-        ))}
+    
         </div>
     );
 }

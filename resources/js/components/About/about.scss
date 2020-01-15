@@ -1,0 +1,19 @@
+.about-page{
+    section:nth-child(2){
+      div>p{
+        font-weight: 900;
+        padding: 1em;
+        margin:0 auto;
+        width: 80vw;
+      }
+    }
+    section:nth-child(3){
+      div>p{
+        border: 2px solid #f1e6e6;
+        width: 18rem;
+        margin: 0 auto;
+        padding: 2rem 2rem;
+      }
+    }
+  }
+  

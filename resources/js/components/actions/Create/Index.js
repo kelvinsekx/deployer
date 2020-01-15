@@ -104,7 +104,7 @@ render() {
                             <form onSubmit={this.onSubmit}>
                                 <div className="form-group">
                                     <textarea
-                                        className="form-control"
+                                        className="form-control "
                                         rows="5"
                                         placeholder="Create a new task"
                                         required
