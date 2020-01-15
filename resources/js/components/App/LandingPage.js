@@ -15,7 +15,7 @@ export default class LandingPage extends Component {
             this.setState({
               posts: res.data.posts
             })
-            console.log(res)
+            // console.log(res)
           } )
     }
     componentDidMount(){

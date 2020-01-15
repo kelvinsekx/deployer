@@ -73824,9 +73824,8 @@ function (_Component) {
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('/api/affiliate-marketing').then(function (res) {
         _this2.setState({
           posts: res.data.posts
-        });
+        }); // console.log(res)
 
-        console.log(res);
       });
     }
   }, {
@@ -73931,9 +73930,8 @@ function (_Component) {
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/api/affiliate-marketing/".concat(slug)).then(function (res) {
         _this2.setState({
           posts: res.data.posts
-        });
+        }); // console.log(res)
 
-        console.log(res);
       });
     }
   }, {
