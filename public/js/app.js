@@ -67871,7 +67871,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -74132,7 +74132,7 @@ function AboutPage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container-fluid about-page"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "row mb-5 anchor_statement center"
+    className: "row mt-5 anchor_statement center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -74152,11 +74152,11 @@ function AboutPage() {
   }, "universe"), " at its dept.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "row mt-2 text-muted"
+    className: "row mt-5 text-muted"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Gilaff is supporting an open community where people will learn,share, and work together to build an ideal digital marketing space."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "row mt-2"
+    className: "row mt-4"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "First release December 2019."))));

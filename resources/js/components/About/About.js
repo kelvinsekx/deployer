@@ -5,7 +5,7 @@ import './about.scss'
 function AboutPage(){
     return(
         <div className="container-fluid about-page">
-            <section className="row mb-5 anchor_statement center">
+            <section className="row mt-5 anchor_statement center">
                 <div className="col-lg"></div>
                 <div className="col-lg-6 col-12 col-xs-12">
                     <p>
@@ -17,7 +17,7 @@ function AboutPage(){
                 <div className="col-lg"></div>
             </section>
 
-            <section className="row mt-2 text-muted">
+            <section className="row mt-5 text-muted">
                 <div className="col">
                     <p>
                         Gilaff is supporting an open community where people will learn,share, 
@@ -26,7 +26,7 @@ function AboutPage(){
                 </div>
             </section>
 
-            <section className="row mt-2">
+            <section className="row mt-4">
              <div className="col">
                  <p>First release December 2019.</p>
              </div>
