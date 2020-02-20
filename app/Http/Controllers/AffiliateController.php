@@ -6,7 +6,7 @@ use Illuminate\Support\Str;
 
 use Illuminate\Http\Request;
 use App\Post;
-use App\User;
+// use App\User;
 
 class AffiliateController extends Controller
 {
@@ -50,16 +50,16 @@ class AffiliateController extends Controller
     public function Store(Request $request)
     {
         $validatedData = $request->validate([
-            'title' => 'required',
-            'summary'=>'required',
-            'content'=>'required',
+            'title' =>  'required',
+            'summary'=> 'required',
+            'content'=> 'required',
             'conclusion'=>'required',
           ]);
+
         
         $post =Post::create([
             'title'=>Str::title($validatedData['title']),
             'summary'=>$validatedData['summary'],
-            
             'content'=>$validatedData['content'],
             'conclusion'=>$validatedData['conclusion'],
             'slug'=>Str::slug($validatedData['title'], '-'),

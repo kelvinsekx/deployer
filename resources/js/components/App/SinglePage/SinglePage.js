@@ -43,13 +43,16 @@ render() {
                 <div>
                     <div>
                     <label>Summary</label>
-                     <p>{posts.summary}</p> 
+                        <div style={{whiteSpace: "pre-wrap"}}>
+                            <p>{posts.summary}</p>
+                        </div> 
                     </div> 
                 </div>
 
                 <div>
-                    <div>
-                        {posts.content} 
+                <label>Content</label>
+                    <div style={{whiteSpace: "pre-wrap"}}>
+                        <p style={{whiteSpace: "pre-wrap"}}>{posts.content} </p>
                     </div> 
                 </div>
                 <div>

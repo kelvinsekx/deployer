@@ -1,6 +1,6 @@
 import React ,{Component} from 'react';
+import { Editor } from '@tinymce/tinymce-react';
 import axios from 'axios';
-import {Link} from 'react-router-dom'
 
 export default class CreatePost extends Component {
     constructor(props){
@@ -73,12 +73,31 @@ render() {
 
                                 <div className="form-group">
                                 <label>Content</label>
-                                    <textarea 
-                                    className="form-control summernote"
-                                    name="content"
-                                    value={this.state.content}
-                                    onChange={this.handleChange}
-                                    />
+                                {/* <Editor
+                                 initialValue="<p>This is the initial content of the editor</p>"
+                                init={{
+                                height: 500,
+                                menubar: false,
+                                plugins: [
+                                    'advlist autolink lists link image charmap print preview anchor',
+                                    'searchreplace visualblocks code fullscreen',
+                                    'insertdatetime media table paste code help wordcount'
+                                ],
+                                toolbar:
+                                    'undo redo | formatselect | bold italic backcolor | \
+                                    alignleft aligncenter alignright alignjustify |',
+                                },
+                                value=tinymce.activeEditor.getContent(),
+                                name="content"
+
+                            }
+                                
+                            /> */}
+                                <textarea
+                                name="content"
+                                value={this.state.content}
+                                onChange={this.handleChange} 
+                                />
                                 </div>
 
                                 <div className="form-group">

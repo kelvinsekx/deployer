@@ -12,6 +12,9 @@ class PagesController extends Controller
     public function abt(){
       return view('pages.about');
     }
+    public function what_is(){
+      return view('pages.what');
+    }
     public function edit(){
       return view('pages.edit');
     }
